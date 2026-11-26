@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 训练中间产物
+runs/
+events.out.tfevents.*
+train_batch*.jpg
+
+# 系统与临时文件
+Thumbs.db
+.DS_Store
+*.tmp
+~$*

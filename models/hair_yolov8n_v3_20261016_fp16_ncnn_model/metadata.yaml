@@ -1,0 +1,20 @@
+description: Ultralytics hair_YOLOv8n_v3_20261016 model trained on D:/DMEOI_hair_yolo/data.yaml
+author: Ultralytics
+date: '2026-10-21T19:41:23.218358'
+version: 8.4.90
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 1280
+- 1280
+names:
+  0: hair
+args:
+  batch: 1
+  quantize: 16
+channels: 3
+end2end: false
